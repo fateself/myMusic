@@ -1,0 +1,38 @@
+﻿<html ng-app="music">
+
+<head>
+    <meta charset="UTF-8">
+    <title>传智音乐</title>
+    <link href="./img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./vender/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./css/icon.css" />
+    <link href="./css/common.css" rel="stylesheet" type="text/css" />
+    <link href="./css/link.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <script src="./vender/jquery/dist/jquery.js" type="text/javascript"></script>
+    <script src="./vender/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- 127.0.0.1/public -->
+    <script type="text/javascript" src="./vender/angular/angular.js"></script>
+    <script type="text/javascript" src="./vender/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="./js/controllers/login.js"></script>
+    <script type="text/javascript" src="./js/controllers/register.js"></script>
+    <script type="text/javascript" src="./js/controllers/list.js"></script>
+    <script type="text/javascript" src="./js/models/user.js"></script>
+    <script type="text/javascript" src="./js/controllers/header.js"></script>
+    <script type="text/javascript" src="./js/controllers/logout.js"></script>
+</head>
+
+<body>
+    <my-header></my-header>
+    <!-- 留坑 -->
+    <ui-view></ui-view>
+    <div class="aw-footer-wrap">
+        <div class="aw-footer">
+            Copyright © 2016, All Rights Reserved</span>
+            <span class="hidden-xs">Powered By <a href="http://www.itcast.cn" target="blank">ITcast</a></span>
+        </div>
+    </div>
+</body>
+
+</html>

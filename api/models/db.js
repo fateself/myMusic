@@ -1,6 +1,6 @@
 "use strict";
 const mongoClient = require("mongodb").MongoClient;
-let url = 'mongodb://127.0.0.1:27017/itcast';
+let url = 'mongodb://192.168.12.58:27017/itcast';
 const obj = {};
 
 obj.insert = function (collectionName,insertArray,callback) {
